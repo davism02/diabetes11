@@ -24,7 +24,7 @@ model = joblib.load('models/rf_model.h5')
 
 
 # DATABASE_URL will contain the database connection string:
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('postgres://nfrxwrxpyogqgs:e50e1c7425c88564e20bad61fb03f85dcca91714c19ec4051143c97c73dba4ed@ec2-34-194-119-178.compute-1.amazonaws.com:5432/d5hbgqogn1i8gj', '')
+#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('postgres://nfrxwrxpyogqgs:e50e1c7425c88564e20bad61fb03f85dcca91714c19ec4051143c97c73dba4ed@ec2-34-194-119-178.compute-1.amazonaws.com:5432/d5hbgqogn1i8gj', '')
 # Connects to the database using the app config
 #db = SQLAlchemy(app)
 
